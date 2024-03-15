@@ -8,7 +8,7 @@ POST {{host}}/api/products/
 Content-Type: application/json
 
 {
-  "title": "title",
+  "title": "title for main",
   "image": "image"
 }
 ###
@@ -19,17 +19,17 @@ Accept: application/json
 ###
 
 # Изменить один продукт
-PUT {{host}}/api/products/1/
+PUT {{host}}/api/products/7/
 Content-Type: application/json
 
 {
-  "title": "changed_title",
+  "title": "ebat togo rot",
   "image": "changed_image"
 }
 ###
 
 # Удалить один продукт
-DELETE {{host}}/api/products/1/
+DELETE {{host}}/api/products/7/
 Accept: application/json
 
 
