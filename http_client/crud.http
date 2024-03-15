@@ -1,0 +1,41 @@
+# Получить все продукты
+GET {{host}}/api/products/
+Accept: application/json
+###
+
+# Создать продукт
+POST {{host}}/api/products/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "image": "image"
+}
+###
+
+# Получить один продукт
+GET {{host}}/api/products/1/
+Accept: application/json
+###
+
+# Изменить один продукт
+PUT {{host}}/api/products/1/
+Content-Type: application/json
+
+{
+  "title": "changed_title",
+  "image": "changed_image"
+}
+###
+
+# Удалить один продукт
+DELETE {{host}}/api/products/1/
+Accept: application/json
+
+
+###
+
+# получить пользователя
+GET {{host}}/api/users/
+Accept: application/json
+###
